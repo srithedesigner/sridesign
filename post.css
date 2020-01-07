@@ -1,0 +1,86 @@
+input[type="text"]
+{
+    width: 50%;
+ 
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type="date"]
+{
+    width: 20%;
+ 
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+}
+input[type="text"]:focus {
+  width: 70%;
+}
+
+body{
+
+
+    background-image: url("p.png");
+    
+}
+#notice
+{
+    padding: 3%;
+    clear: both;
+    font-size: x-large;
+  
+    
+}
+#ta
+{
+    width: 40%;
+ 
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  
+
+}
+#h
+{
+  text-align: center;
+  font-size: 60px;
+  border: 4px rgb(254, 255, 253) solid;
+  border-radius: 15%;
+  border-left: 50px;
+  border-right: 50px;
+}
+
+#c
+{
+    font-size: large;
+    padding:1%;
+    margin-left: 7%;
+}
+
+.su
+{
+    font-size: x-large;
+    border-radius: 10%;
+    margin-left: 200px;
+    background-color: gainsboro;
+}

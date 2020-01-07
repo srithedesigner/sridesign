@@ -1,0 +1,72 @@
+#hello_user
+{
+    border-style: solid;
+    border-color: black;
+    background-color: azure;
+    width: 75%;
+
+    
+}
+#h1
+{
+    padding: 20px;
+    
+}
+#em
+{
+    width: 10%;
+    position:absolute;
+    top: 1.5%;
+    left:100%
+    
+}
+table {
+    
+    table-layout: fixed;
+    font-size: x-large;
+
+    
+ 
+    
+}
+   
+th{
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding:1%;
+    margin-left: 1%;
+    margin-right: 0%;
+}
+#tab
+{
+    table-layout: fixed;
+    width:900px;
+    background-color:#c299ff;
+    
+}
+
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+
+.pop
+  {
+    height: 400px;
+    width:420xp;
+    position: fixed;
+    bottom: 50%;
+    right:50%;
+    border:2px solid;
+    padding:10px;
+    background:#FFFFFF;
+    border-radius:9px;
+  }

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="hp.css" type ="text/css">
+       
+        <title>
+            HOMEPAGE
+        </title>
+    </head>
+    <body>
+       <div id ="hello_user">
+        <h1 id ="h1">
+     HELLO, Mr X
+        </h1>
+       </div>
+       <img id ="em" src="passpic.jpg">
+      
+       <br>
+       <br>
+
+       <table>
+       
+
+        <tr>
+            <th style="width: 70;">S.No</th>
+            <th id ="tab">NOTICE</th>
+            <th style="width: 200;">Date</th>
+            <th style="width: 150;">Concernity</th>
+            
+        </tr>
+        <tr>
+            <?php
+            $con = mysqli_connect("localhost","root","")
+            if($con)
+            {
+                echo "doesnt connect";
+            }
+            $sql ="SELECT Notice, date, desc, cons FROM notice";
+            $res = mysqli_query($con,sql);
+            if($res->num_rows >0)
+            {
+                while($row = $result->fetch_assoc()) {
+                    echo "<tr><td>" . $row["Notice"]. "</td><td>" . $row["date"] . "</td><td>"
+                    . $row["desc"]. "</td>><td>" . $row["cons"]. "</td></tr>";
+                    
+            }
+            ?>
+        </tr>
+
+       </table>
+
+
+
+    </body>
+</html>
